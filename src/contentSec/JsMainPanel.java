@@ -27,8 +27,8 @@ public class JsMainPanel extends JFrame { // 추후 작성할 것
 		// 제목 라벨
 		JsTitlePanel tp = new JsTitlePanel(this);
 		JsIndexPanel ip = new JsIndexPanel(this);
-		scrollIndexPanel = new JScrollPane(new ContentPanelInfo(), JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
-				JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+		scrollIndexPanel = new JScrollPane(new ContentPanelInfo(), JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		add(scrollIndexPanel, BorderLayout.CENTER);
 
 		JPanel emptySpace = new JPanel();
