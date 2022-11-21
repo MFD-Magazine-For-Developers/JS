@@ -21,7 +21,7 @@ public class ButtonsWrapper extends JPanel {
 		ContentPanelIde js3 = new ContentPanelIde();
 		ContentPanelDocs js4 = new ContentPanelDocs();
 		ContentPanelYoutube js5 = new ContentPanelYoutube();
-		ContentPanelLec js6 = new ContentPanelLec();
+		ContentPanelLecture js6 = new ContentPanelLecture();
 		ContentPanelBook js7 = new ContentPanelBook();
 		
 		

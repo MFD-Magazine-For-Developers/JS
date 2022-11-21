@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import java.io.IOException;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -46,7 +47,7 @@ public class JsMainPanel extends JFrame { // 추후 작성할 것
 		setVisible(true);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  throws IOException {
 
 		new JsMainPanel();
 
