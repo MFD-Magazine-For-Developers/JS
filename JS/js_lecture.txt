@@ -1,0 +1,9 @@
+1) html/css
+
+https://nomadcoders.co/kokoa-clone/lobby
+
+2) Js
+
+https://ko.javascript.info/
+https://www.inflearn.com/course/레츠기릿-자바스크립트
+https://codewithmosh.com/

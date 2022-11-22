@@ -14,21 +14,21 @@ import javax.swing.JScrollPane;
 public class JsMainPanel extends JFrame { // 추후 작성할 것
 
 	public static JScrollPane scrollIndexPanel;
-	public static Color defaultBackgroundColor = new Color(255,235,148);
+	public static Color defaultBackgroundColor = new Color(255, 235, 148);
 	public static Color defaultContentColor = new Color(253, 159, 40);
 
 	public JsMainPanel() {
 
 		setTitle("Content Page");
-		
+
 		setSize(1024, 768);
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-		this.setLocation(dim.width/2-this.getSize().width/2, dim.height/2-this.getSize().height/2);
-        
+		this.setLocation(dim.width / 2 - this.getSize().width / 2, dim.height / 2 - this.getSize().height / 2);
+
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		Container c = getContentPane();
-		
+
 		c.setLayout(new BorderLayout());
 		c.setBackground(defaultBackgroundColor);
 
@@ -47,7 +47,7 @@ public class JsMainPanel extends JFrame { // 추후 작성할 것
 		setVisible(true);
 	}
 
-	public static void main(String[] args)  throws IOException {
+	public static void main(String[] args) throws IOException {
 
 		new JsMainPanel();
 
