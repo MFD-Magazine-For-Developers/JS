@@ -1,4 +1,4 @@
-package contentSec;
+package js_main;
 
 import java.awt.Dimension;
 import java.awt.Image;

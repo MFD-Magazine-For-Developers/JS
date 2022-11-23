@@ -1,23 +1,22 @@
-package contentSec;
+package js_main;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.io.IOException;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-public class JsMainPanel extends JFrame { // 추후 작성할 것
+public class JsMainPanel extends JFrame {
 
 	public static JScrollPane scrollIndexPanel;
-	public static Color defaultBackgroundColor = new Color(255, 235, 148);
+	public static Color defaultBackgroundColor = new Color(255, 235, 148); // 사용될 색입니다.
 	public static Color defaultContentColor = new Color(253, 159, 40);
 
-	public JsMainPanel() {
+	public JsMainPanel(String languageName) {
 
 		setTitle("Content Page");
 
@@ -33,7 +32,7 @@ public class JsMainPanel extends JFrame { // 추후 작성할 것
 		c.setBackground(defaultBackgroundColor);
 
 		// 제목 라벨
-		JsTitlePanel tp = new JsTitlePanel(this);
+		JsTitlePanel tp = new JsTitlePanel(this, languageName);
 		JsIndexPanel ip = new JsIndexPanel(this);
 		scrollIndexPanel = new JScrollPane(new ContentPanelInfo(), JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
 				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
@@ -46,11 +45,4 @@ public class JsMainPanel extends JFrame { // 추후 작성할 것
 
 		setVisible(true);
 	}
-
-	public static void main(String[] args) throws IOException {
-
-		new JsMainPanel();
-
-	}
-
 }

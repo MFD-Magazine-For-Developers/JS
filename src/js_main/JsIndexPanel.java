@@ -1,4 +1,4 @@
-package contentSec;
+package js_main;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

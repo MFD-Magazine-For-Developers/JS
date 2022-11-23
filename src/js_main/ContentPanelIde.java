@@ -1,11 +1,11 @@
-package contentSec;
+package js_main;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 
-public class ContentPanelLecture extends ContentPanel {
+public class ContentPanelIde extends ContentPanel {
 
-	public ContentPanelLecture() {
+	public ContentPanelIde() {
 
 		super();
 		ReadingFile rf = new ReadingFile();
@@ -13,8 +13,8 @@ public class ContentPanelLecture extends ContentPanel {
 		setBackground(JsMainPanel.defaultContentColor);
 		setPreferredSize(new Dimension(500, 5000));
 
-		rf.writeTitle("JS 추천 강의", this); // 각 챕터의 이름입니다.
-		rf.readText("Js/js_lecture.txt", this);
-
+		rf.writeTitle("JS 개발 환경", this); // 각 챕터의 이름입니다.
+		rf.readText("jsTxt/js_ide.txt", this);
 	}
+
 }

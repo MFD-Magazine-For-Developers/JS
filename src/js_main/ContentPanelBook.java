@@ -1,4 +1,4 @@
-package contentSec;
+package js_main;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -14,7 +14,7 @@ public class ContentPanelBook extends ContentPanel {
 		setPreferredSize(new Dimension(500, 5000));
 
 		rf.writeTitle("JS 추천 도서", this);
-		rf.readText("Js/js_book.txt", this);
+		rf.readText("jsTxt/js_book.txt", this);
 
 	}
 

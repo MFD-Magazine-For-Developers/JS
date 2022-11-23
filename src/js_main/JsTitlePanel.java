@@ -1,12 +1,9 @@
-package contentSec;
+package js_main;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -16,13 +13,13 @@ public class JsTitlePanel extends JPanel {
 
 	JLabel imageLabel = new JLabel();
 
-	public JsTitlePanel(JsMainPanel mp) {
+	public JsTitlePanel(JsMainPanel mp, String languageName) {
 
 		setLayout(null);
 		setPreferredSize(new Dimension(1024, 150));// title panel의 크기입니다.
 		setBackground(JsMainPanel.defaultBackgroundColor);
 
-		JLabel language = new JLabel("JavaScript");
+		JLabel language = new JLabel(languageName);
 		language.setFont(new Font("G마켓 산스 TTF", Font.BOLD, 40));
 		language.setSize(230, 50);
 		language.setLocation(this.getPreferredSize().width / 2 - language.getWidth() / 2, 50);
@@ -36,16 +33,4 @@ public class JsTitlePanel extends JPanel {
 
 		mp.add(this, BorderLayout.NORTH);
 	}
-
-	private Image getScaledImage(Image srcImg, int w, int h) {
-		BufferedImage resizedImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
-		Graphics2D g2 = resizedImg.createGraphics();
-
-		g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
-		g2.drawImage(srcImg, 0, 0, w, h, null);
-		g2.dispose();
-
-		return resizedImg;
-	}
-
 }
