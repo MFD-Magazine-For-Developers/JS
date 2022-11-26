@@ -19,7 +19,7 @@ public abstract class ContentPanel extends JPanel {
 	protected ReadingFile rf;
 	public ContentPanel(){
 		 rf = new ReadingFile();
-		setLayout(new FlowLayout(FlowLayout.LEFT, 100, 35));
+		setLayout(new FlowLayout(FlowLayout.LEFT, 100, 15));
 		setBackground(MainPanel.defaultContentColor);
 		setPreferredSize(new Dimension(500, 5000));
 	}

@@ -8,6 +8,7 @@ public class SwiftMain {
 		// TODO Auto-generated method stub
 
 		new MainPanel("Swift",  new SwContentPanelInfo(), new SwiftButtonsWrapper());
+		// 각 언어별 실행창입니다.
 	}
 
 }

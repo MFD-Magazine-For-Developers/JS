@@ -9,7 +9,8 @@ public class JavaMain {
 		// TODO Auto-generated method stub
 
 		new MainPanel("Java", new JContentPanelInfo(),new JavaButtonsWrapper());
-
+		
+		// 각 언어별 실행창입니다.
 		
 	}
 

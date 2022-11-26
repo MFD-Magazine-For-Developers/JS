@@ -33,17 +33,7 @@ public class ReadingFile {
 			}
 		}catch(Exception e) {}
 		
-//		if(isHyperLink) {
-//			
-//			result.
-//			
-//		}
-		
 		result = "<html><pre>" + result + "</pre></html>";
-		
-		
-		
-		
 		
 		JLabel contentLabel = new JLabel(result);
 		contentLabel.setFont(cp.defaultTextFont);
@@ -51,16 +41,6 @@ public class ReadingFile {
 		cp.add(contentLabel);
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	public void readImage(String imgFile,int width,int height,ContentPanel cp) {
 		// 이건 이미지 읽는 메서드인데 js만 이미지가 들어가서 다른 곳에는 사용할 일이 없을 것 같아요.
@@ -79,7 +59,7 @@ public class ReadingFile {
 		
 		JLabel sectionTitleLabel = new JLabel("<html>"+ title + "</html>"); // JLabel의 컨텐츠를 각자 바꿔주시면 됩니다.
 		sectionTitleLabel.setFont(cp.defaultTitleFont);
-		sectionTitleLabel.setSize(cp.defaultTitleWidth, cp.defaultTitleHeight);
+		sectionTitleLabel.setPreferredSize(new Dimension(600, cp.defaultTitleHeight));
 		cp.add(sectionTitleLabel);	
 	}
 }
