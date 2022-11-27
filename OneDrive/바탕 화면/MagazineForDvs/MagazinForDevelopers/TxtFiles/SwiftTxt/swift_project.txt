@@ -1,0 +1,41 @@
+Swift 언어는 각각 고유한 저장소가 있는 프로젝트 모음으로 관리됩니다. 
+현재 프로젝트 목록에는 다음이 포함됩니다.
+
+- Swift [컴파일러](https://www.swift.org/swift-compiler/) 명령줄 도구
+- 언어의 일부로 번들 된 [표준 라이브러리](https://www.swift.org/standard-library/)
+- 고급 기능을 제공하는 [핵심 라이브러리](https://www.swift.org/core-libraries/)
+- Swift REPL을 포함하는 LLDB [디버거](https://www.swift.org/lldb/)
+- Swift 소스 코드 배포 및 빌드를 위한 Swift [패키지 관리자](https://www.swift.org/package-manager/)
+- Xcode 에서 플레이그라운드를 활성화 [하기 위한 Xcode 플레이그라운드 지원 .](https://www.swift.org/lldb/#xcode-playground-support)
+
+### 애플 플랫폼
+
+오픈 소스 Swift는 iOS, macOS, watchOS 및 tvOS와 같은 
+모든 Apple 플랫폼을 대상으로 하는 Mac에서 사용할 수 있습니다. 
+또한 오픈 소스 Swift의 바이너리 빌드는 Xcode 빌드 시스템에 대한 완전한 지원, 
+편집기의 코드 완성 및 통합 디버깅을 포함하여 Xcode 개발자 도구와 통합되므로 
+누구나 친숙한 Cocoa 및 Cocoa에서 최신 Swift 개발을 실험할 수 있습니다. 
+터치 개발 환경.
+
+### 리눅스
+
+오픈 소스 Swift는 Linux에서 Swift 라이브러리 및 애플리케이션을 
+빌드하는 데 사용할 수 있습니다. 오픈 소스 바이너리 빌드는 Swift 컴파일러 및 표준 라이브러리
+, Swift REPL 및 디버거(LLDB), [핵심 라이브러리](https://www.swift.org/core-libraries/) 를 제공하므로 
+Swift 개발로 바로 이동할 수 있습니다.
+
+### 창
+
+오픈 소스 Swift는 Windows에서 Swift 라이브러리 및 애플리케이션을 
+빌드하는 데 사용할 수 있습니다. 오픈 소스 바이너리 빌드는 C/C++/Swift 툴체인, 
+표준 라이브러리, 디버거(LLDB), [핵심 라이브러리](https://www.swift.org/core-libraries/) 를 제공하므로 
+Swift 개발로 바로 이동할 수 있습니다. SourceKit-LSP는 개발자가 선택한 IDE를 사용하여 신속하게 생산성을
+ 높일 수 있도록 릴리스에 번들로 제공됩니다.
+
+### 새로운 플랫폼
+
+우리는 Swift를 함께 가져올 수 있는 새로운 장소를 보고 싶습니다. 
+우리는 우리가 사랑하는 이 언어가 소프트웨어를 더 안전하고 빠르며 
+유지 관리하기 쉽게 만들 수 있다고 진정으로 믿습니다. 
+더 많은 컴퓨팅 플랫폼에 Swift를 제공하는 데 도움이 되었으면 합니다.
+

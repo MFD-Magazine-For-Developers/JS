@@ -1,0 +1,9 @@
+https://docs.oracle.com/javase/specs/jls/se8/html/index.html (공식 문서)
+
+https://docs.oracle.com/en/java/javase/19/ (자바 홈페이지)
+
+구글에 api documentation java 8라고 검색하거나 
+https://docs.oracle.com/javase/8/docs/api 주소로 이동하면 
+(자바가 기본적으로 제공하는 라이브러리에 대한 설명이 적혀있는 사이트)
+
+약 4000여개의 클래스의 종류가 있으며 각 클래스의 상세 정보가 적혀있다.
